@@ -24,10 +24,10 @@
                     <a :href="info['関連URL']">{{info['関連URL']}}</a>
                 </div>
                 <div v-if="info['アクセス']">
-                <span>アクセス</span>
-                <p>
-                    {{info['アクセス']}}
-                </p>    
+                    <span>アクセス</span>
+                    <p>
+                        {{info['アクセス']}}
+                    </p>    
                 </div>
                 
             </l-popup>
